@@ -16,6 +16,7 @@ module.exports = {
       },
       inset: {
         '30%': '30%',
+        '20%': '20%'
       },
       fontFamily: {
         'roboto': ['Roboto', 'sans-serif']
@@ -25,6 +26,7 @@ module.exports = {
         '3px': '3px',
         '10px': '10px',
         '30px': '30px',
+        '300px': '300px'
 
       }
     },

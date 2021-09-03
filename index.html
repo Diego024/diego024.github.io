@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arteria Studio - Inicio</title>
+    <title>Agencia Digital - Arteria Studio</title>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./assets/icons/favicon.png" type="image/x-icon">
     <!-- CSS DE TAILWIND -->
     <link rel="stylesheet" href="./assets/css/tailwind.css">
     <!-- ROBOTO FONT LINK -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <div class="h-screen bg-gray-dark relative font-roboto">
         <!-- NAVBAR -->
@@ -72,16 +77,33 @@
             </ul>
         </nav>
         <!-- BACKGROUND VIDEO -->
-        <video class="w-full h-screen object-cover absolute z-0" src="./assets/videos/background-video.mp4" autoplay muted loop ></video>
+        <video class="w-full h-screen object-cover absolute z-0" src="./assets/videos/background-video.mp4" autoplay
+            muted loop></video>
 
         <ul class="z-10 w-6 h-64 absolute top-30% right-30px">
             <li><a href="#"><img class="w-6 my-4" src="./assets/icons/whatsapp-icon.png" alt=""></a></li>
             <li><a href="#"><img class="w-6 my-4" src="./assets/icons/behance-icon.png" alt=""></a></li>
             <li><a href="#"><img class="w-6 my-4" src="./assets/icons/instagram-logo.png" alt=""></a></li>
             <li><a href="#"><img class="w-6 my-4" src="./assets/icons/facebook-icon.png" alt=""></a></li>
-            <li><p class="text-white text-center text-xl">|</p></li>
-            <li><p class="transform -rotate-90 bottom-0 my-14 text-white font-bold tracking-widest text-sm">Síguenos</p></li>
+            <li>
+                <p class="text-white text-center text-xl">|</p>
+            </li>
+            <li>
+                <p class="transform -rotate-90 bottom-0 my-14 text-white font-bold tracking-widest text-sm">Síguenos</p>
+            </li>
         </ul>
     </div>
+
+    <div class="absolute top-30% text-white w-30% left-28">
+        <p class="text-8xl font-semibold">Potenciamos</p>
+        <p class="text-8xl font-semibold">el éxito de tu</p>
+        <p class="text-8xl font-semibold" id="proyectos">proyecto</p>
+    </div>
+
+    <!-- TYPEJS SCRIPT -->
+    <script src="./library/typed.js"></script>
+    <!-- SCRIPT DEL CONTROLADOR DEL INDEX -->
+    <script src="./controller/index.js"></script>
 </body>
+
 </html>
