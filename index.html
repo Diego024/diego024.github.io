@@ -10,15 +10,20 @@
     <link rel="shortcut icon" href="./assets/icons/favicon.png" type="image/x-icon">
     <!-- CSS DE TAILWIND -->
     <link rel="stylesheet" href="./assets/css/tailwind.css">
+    <!-- CSS DE STYLE -->
+    <link rel="stylesheet" href="./assets/css/style.css">
     <!-- ROBOTO FONT LINK -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"rel="stylesheet">
 </head>
 
-<body>
+<body class="bg-gray-dark">
+    <!-- MAIN SECCION -->
     <div class="h-screen bg-gray-dark relative font-roboto">
+        <!-- BACKGROUND VIDEO -->
+        <video class="w-full h-screen object-cover absolute z-0" src="./assets/videos/background-video.mp4" autoplay
+        muted loop></video>
         <!-- NAVBAR -->
         <nav class="flex justify-center absolute top-0 z-10 w-full">
             <ul class="flex flex-row justify-center items-center w-full bg-gray- text-white text-opacity-75">
@@ -76,10 +81,13 @@
                 </a>
             </ul>
         </nav>
-        <!-- BACKGROUND VIDEO -->
-        <video class="w-full h-screen object-cover absolute z-0" src="./assets/videos/background-video.mp4" autoplay
-            muted loop></video>
-
+        <!-- TEXTO ANIMADO -->
+        <div class="absolute top-30% text-white w-30% left-28">
+            <p class="text-8xl font-semibold">Potenciamos</p>
+            <p class="text-8xl font-semibold">el éxito de tu</p>
+            <p class="text-8xl font-semibold" id="proyectos">proyecto</p>
+        </div>
+        <!-- REDES SOCIALES -->
         <ul class="z-10 w-6 h-64 absolute top-30% right-30px">
             <li><a href="#"><img class="w-6 my-4" src="./assets/icons/whatsapp-icon.png" alt=""></a></li>
             <li><a href="#"><img class="w-6 my-4" src="./assets/icons/behance-icon.png" alt=""></a></li>
@@ -94,11 +102,174 @@
         </ul>
     </div>
 
-    <div class="absolute top-30% text-white w-30% left-28">
-        <p class="text-8xl font-semibold">Potenciamos</p>
-        <p class="text-8xl font-semibold">el éxito de tu</p>
-        <p class="text-8xl font-semibold" id="proyectos">proyecto</p>
-    </div>
+    <!-- PROJECTS -->
+    <section class="block">
+        <div class="relative min-h-screen w-full -top-24">
+            <div class="flex items-start justify-center flex-wrap">
+                <a href="#" class="bg-pan_son bg-cover bg-no-repeat bg-center m-4 rounded-lg ">
+                    <h1 class="mt-35% w-350px font-bold text-white pl-4 text-2xl">PAN&SON.</h1>
+                    <h1 class="mb-5% pt-1 w-350px font-medium text-white pl-4 text-base">Branding Digital, Fotografía</h1>
+                </a>
+                <a href="#" class="bg-helice bg-cover bg-no-repeat bg-center m-4 rounded-lg ">
+                    <h1 class="mt-35% w-350px font-bold text-white pl-4 text-2xl">Hélice.</h1>
+                    <h1 class="mb-5% pt-1 w-350px font-medium text-white pl-4 text-base">Branding Digital, Fotografía, Identidad Visual</h1>
+                </a>
+                <a href="#" class="bg-beershooter bg-cover bg-no-repeat bg-center m-4 rounded-lg ">
+                    <h1 class="mt-35% w-350px font-bold text-white pl-4 text-2xl">Beershooter.</h1>
+                    <h1 class="mb-5% pt-1 w-350px font-medium text-white pl-4 text-base">Branding Digital, Fotografía, Identidad Visual</h1>
+                </a>
+                <a href="#" class="bg-binomio bg-cover bg-no-repeat bg-center m-4 rounded-lg ">
+                    <h1 class="mt-35% w-350px font-bold text-white pl-4 text-2xl">Binomio.</h1>
+                    <h1 class="mb-5% pt-1 w-350px font-medium text-white pl-4 text-base">Branding Digital, Diseño Web, Identidad Visual</h1>
+                </a>
+                <a href="#" class="bg-suiza bg-cover bg-no-repeat bg-center m-4 rounded-lg ">
+                    <h1 class="mt-35% w-350px font-bold text-white pl-4 text-2xl">Suiza.</h1>
+                    <h1 class="mb-5% pt-1 w-350px font-medium text-white pl-4 text-base">Branding Digital, Fotografía, Identidad Visual</h1>
+                </a>
+                <a href="#" class="bg-ilu bg-cover bg-no-repeat bg-center m-4 rounded-lg ">
+                    <h1 class="mt-35% w-350px font-bold text-white pl-4 text-2xl">ilu.</h1>
+                    <h1 class="mb-5% pt-1 w-350px font-medium text-white pl-4 text-base">Branding Digital, Fotografía</h1>
+                </a>
+                <a href="#" class="bg-startbrandt bg-cover bg-no-repeat bg-center m-4 rounded-lg ">
+                    <h1 class="mt-35% w-350px font-bold text-white pl-4 text-2xl">Startbrandt.</h1>
+                    <h1 class="mb-5% pt-1 w-350px font-medium text-white pl-4 text-base">Branding Digital</h1>
+                </a>
+                <a href="#" class="bg-terramonte bg-cover bg-no-repeat bg-center m-4 rounded-lg ">
+                    <h1 class="mt-35% w-350px font-bold text-white pl-4 text-2xl">Terramonte.</h1>
+                    <h1 class="mb-5% pt-1 w-350px font-medium text-white pl-4 text-base">Branding Digital, Fotografía</h1>
+                </a>
+                <a href="#" class="bg-barbaro bg-cover bg-no-repeat bg-center m-4 rounded-lg ">
+                    <h1 class="mt-35% w-350px font-bold text-white pl-4 text-2xl">Bárbaro.</h1>
+                    <h1 class="mb-5% pt-1 w-350px font-medium text-white pl-4 text-base">Branding Digital, Fotografía</h1>
+                </a>
+                <a href="#" class="bg-elipsis bg-cover bg-no-repeat bg-center m-4 rounded-lg ">
+                    <h1 class="mt-35% w-350px font-bold text-white pl-4 text-2xl">Elipsis.</h1>
+                    <h1 class="mb-5% pt-1 w-350px font-medium text-white pl-4 text-base">Diseño de productos, Fotografía</h1>
+                </a>
+                <a href="#" class="bg-tony_romas bg-cover bg-no-repeat bg-center m-4 rounded-lg ">
+                    <h1 class="mt-35% w-350px font-bold text-white pl-4 text-2xl">Tony Roma's.</h1>
+                    <h1 class="mb-5% pt-1 w-350px font-medium text-white pl-4 text-base">Branding Digital, Fotografía</h1>
+                </a>
+                <a href="#" class="bg-soho bg-cover bg-no-repeat bg-center m-4 rounded-lg ">
+                    <h1 class="mt-35% w-350px font-bold text-white pl-4 text-2xl">SOHO.</h1>
+                    <h1 class="mb-5% pt-1 w-350px font-medium text-white pl-4 text-base">Branding Digital, Fotografía</h1>
+                </a>
+                <a href="#" class="bg-oink_grill bg-cover bg-no-repeat bg-center m-4 rounded-lg ">
+                    <h1 class="mt-35% w-350px font-bold text-white pl-4 text-2xl">Oink Oink Grill.</h1>
+                    <h1 class="mb-5% pt-1 w-350px font-medium text-white pl-4 text-base">Branding Digital, Fotografía, Identidad Visual</h1>
+                </a>
+                <a href="#" class="bg-bennigans bg-cover bg-no-repeat bg-center m-4 rounded-lg ">
+                    <h1 class="mt-35% w-350px font-bold text-white pl-4 text-2xl">Bennigan's.</h1>
+                    <h1 class="mb-5% pt-1 w-350px font-medium text-white pl-4 text-base">Branding Digital, Fotografía, Identidad Visual</h1>
+                </a>
+                <a href="#" class="bg-esquina_kurt bg-cover bg-no-repeat bg-center m-4 rounded-lg ">
+                    <h1 class="mt-35% w-350px font-bold text-white pl-4 text-2xl">Esquina de Kurt.</h1>
+                    <h1 class="mb-5% pt-1 w-350px font-medium text-white pl-4 text-base">Branding Digital, Fotografía</h1>
+                </a>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- QUOTETION REQUEST  -->
+    <section class="flex flex-row text-gray-light justify-center">
+        <div class="w-60% mr-4">
+            <h1 class="font-bold text-4xl text-white">Solicitar una cotización</h1>
+            <form>
+                <div class="flex justify-start my-6">
+                    <div class="flex flex-col">
+                        <label class="font-bold">Nombre*</label>
+                        <input type="text" class="bg-gray-medium text-sm py-3 pl-2 pr-1 outline rounded-md" size="30" placeholder="Tu nombre">
+                    </div>
+
+                    <div class="flex flex-col ml-52">
+                        <label class="font-bold">Nombre de su marca*</label>
+                        <input type="text" class="bg-gray-medium text-sm py-3 pl-2 pr-1 outline-none rounded-md" size="30" placeholder="Tu marca">
+                    </div>
+                </div>
+                <div class="flex justify-start my-6">
+                    <div class="flex flex-col">
+                        <label class="font-bold">Email*</label>
+                        <input type="text" class="bg-gray-medium text-sm py-3 pl-2 pr-1 outline-none rounded-md" size="30" placeholder="Tu email">
+                    </div>
+
+                    <div class="flex flex-col ml-52">
+                        <label class="font-bold">Teléfono*</label>
+                        <input type="text" class="bg-gray-medium text-sm py-3 pl-2 pr-1 outline-none rounded-md" size="30" placeholder="Tu teléfono">
+                    </div>
+                </div>
+                <div class="flex justify-start my-6">
+                    <div class="flex flex-col">
+                        <label class="font-bold">Servicio deseado*</label>
+                        <input type="text" class="bg-gray-medium text-sm py-3 pl-2 pr-1 outline-none rounded-md" size="30" placeholder="Servicio que deseas">
+                    </div>
+
+                    <div class="flex flex-col ml-52">
+                        <label class="font-bold">Tu presupuesto para el proyecto (USD)</label>
+                        <!-- <input type="text" class="bg-gray-medium text-sm py-3 pl-2 pr-1 outline-none rounded-md" size="30" placeholder="Tu teléfono"> -->
+                        <select class="bg-gray-medium text-sm py-3 pl-2 pr-1 outline-none rounded-md">
+                            <option selected>USD $500.00 - USD $700.00</option>
+                            <option>USD $701.00 - USD $800.00</option>
+                            <option>USD $801.00 - USD $999.00</option>
+                            <option>USD $1,001.00 - USD $3,000.00</option>
+                            <option>USD $3,001.00 - USD $5,000.00</option>
+                            <option>USD $5,001.00 - USD $10,000.00</option>
+                            <option>USD $10,001.00 - USD $15,000.00</option>
+                            <option>USD $15,001.00 - USD $25,000.00</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="flex justify-start my-6">
+                    <div class="flex flex-col">
+                        <label class="font-bold">Email*</label>
+                        <textarea class="bg-gray-medium text-sm py-3 pl-2 pr-1 outline-none rounded-md" cols="115" rows="5">
+
+                        </textarea>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div>
+            <h1 class="font-bold text-4xl text-white">Contáctanos</h1>
+            <h2 class="font-bold text-3xl text-white mt-10">Enviamos un correo</h2>
+            <div class="mt-10 text-base">
+                <p>Para consultas sobre tu proyecto:</p>
+                <a href="#"><p class="text-white font-bold">info@arteriaestudio.com</p></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="text-white flex flex-col w-full">
+        <div class="flex flex-row justify-around">
+            <div>
+                <img src="./assets/img/arteria_studio-logoWT.png" class="w-32 py-20">
+            </div>
+            <div class="flex items-start flex-col justify-center">
+                <p class="font-bold text-base">EL SALVADOR</p>
+                <p>Urbanización Madre Selva I,</p>
+                <p>Av. El Espino #65 Pol.10,</p>
+                <p>Santa Elena, Antiguo Cuscatlán</p>
+            </div>
+            <div class="flex items-start flex-col justify-center">
+                <p class="font-bold text-base">CONTACTO</p>
+                <p>Tel. +503 2200 5190</p>
+                <p>Cel. +503 6999 5203</p>
+            </div>
+            <div class="flex items-start flex-col justify-center">
+                <p class="font-bold text-base">CONSULTAS</p>
+                <p>¿Quieres ser parte de nuestro equipo</p>
+                <p class="font-medium">info@arteriaestudio.com</p>
+            </div>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+            <hr class="w-80% mx-32 bg-gray-400">
+        </div>
+        <div class="flex justify-between mx-32 my-5 w-80%">
+            <p>2021. Arteria Studio, Hacemos latir tu marca</p>
+            <p>Derechos Reservados</p>
+        </div>
+    </footer>
 
     <!-- TYPEJS SCRIPT -->
     <script src="./library/typed.js"></script>

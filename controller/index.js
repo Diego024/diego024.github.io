@@ -4,7 +4,7 @@ var typed = new Typed('#proyectos', {
         "tienda en línea",
         "marca de ropa",
         "pastelería", 
-        "beuty shop",
+        "beauty shop",
         "coffee shop",
         "estudio de arquitectura",
         "tienda de accesorios"
