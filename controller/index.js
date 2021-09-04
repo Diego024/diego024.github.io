@@ -3,7 +3,7 @@ var typed = new Typed('#proyectos', {
         "marca",
         "tienda en línea",
         "marca de ropa",
-        "pastelería", 
+        "pastelería",
         "beauty shop",
         "coffee shop",
         "estudio de arquitectura",
@@ -14,3 +14,23 @@ var typed = new Typed('#proyectos', {
     backSpeed: 50,
     loop: true
 });
+
+// OWL CAROUSEL
+$('.owl-carousel').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: false,
+    autoplay:true,
+    autoplayTimeout:3000,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 1
+        },
+        1000: {
+            items: 1
+        }
+    }
+})
