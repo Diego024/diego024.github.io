@@ -34,16 +34,21 @@ module.exports = {
         '300px': '300px',
         '350px': '350px',
         '450px': '450px',
+        '33%': '33.33%',
         '35%': '35%',
         '50%': '50%',
         '60%': '60%',
         '80%': '80%',
         '100%': '100%',
+        'screen': '100vh',
         '35%': '35%',
         '5%': '5%',
       },
       backgroundSize: {
         '100%': 'auto 100%'
+      },
+      maxWidth: {
+        '1/3': '33.33%'
       },
       backgroundImage: theme => ({
         'pan_son': "url('../img/pan&son.jpg')",
