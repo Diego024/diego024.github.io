@@ -1,4 +1,0 @@
-se inicializa node
-se instala Tailwind con el comando de npm
-Se crea el tailwind.config con el comando de npx
-Se queda a la espera de cambios en el archivo configo con el comando de npx
